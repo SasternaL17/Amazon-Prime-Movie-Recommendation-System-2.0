@@ -1,0 +1,4 @@
+pandas==2.0.1
+Requests==2.31.0
+streamlit==1.22.0
+tenacity==8.2.2
