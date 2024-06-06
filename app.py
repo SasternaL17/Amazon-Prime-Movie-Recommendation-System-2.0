@@ -44,7 +44,7 @@ movies = pd.DataFrame(movies_dict)
 
 similarity = pickle.load(open('similarity.pkl','rb'))
 
-st.title('Amazon Prime Movie Recommendation System 2.0')
+st.title('Amazon Prime Movie Recommendation System Version 1.0')
 
 selcted_movies_name = st.selectbox(
     'Select a Movie',movies['title'].values
